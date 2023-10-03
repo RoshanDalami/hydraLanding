@@ -1,9 +1,28 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+
+//image imports
+import logo from '@/Images/logo.svg'
+import logotext from '@/Images/logotext.svg'
 
 export default function Navbar() {
   return (
-    <main>
-        
+    <main className='flex items-center justify-between w-full px-20 my-5 sticky top-5 z-50 '>
+        <section className='flex gap-2'>
+            <Image src={logo} alt='' width={75} height={75} />
+            <Image src={logotext} alt='' width={50} height={50} />
+        </section>
+        <section className='flex gap-10 text-white'>
+                <p className='nav_link'>ABOUT</p>
+                <p className='nav_link'>SERVICES</p>
+                <p className='nav_link'>TECHNOLOGY</p>
+                <p className='nav_link'>HOW TO</p>
+        </section>
+        <section className='flex gap-6 text-white'>
+            <button className='nav_link contactus_btn '>CONTACT US</button>
+            <button className='nav_link join_btn text-[#343045]'>JOIN HYDRA</button>
+        </section>
     </main>
   )
 }

@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: #302C42;
+}
+@layer components{
+  /* navbar styling */
+  .nav_link{
+    @apply font-bold text-[12px] cursor-pointer
+  }
+  .contactus_btn{
+    @apply border-2 border-white rounded-full px-6 py-3
+  }
+  .join_btn{
+    @apply bg-gradient-to-r from-[#8176AF]  to-[#c3b8eb] px-6 py-3 rounded-full
+  }
+
+  /* hero section styling */
+  
+}
