@@ -21,7 +21,7 @@ export default function Navbar() {
         </section>
         <section className='flex gap-6 text-white'>
             <button className='nav_link contactus_btn '>CONTACT US</button>
-            <button className='nav_link join_btn text-[#343045]'>JOIN HYDRA</button>
+            <button className='nav_link join_btn '>JOIN HYDRA</button>
         </section>
     </main>
   )
