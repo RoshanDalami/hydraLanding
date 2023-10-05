@@ -41,7 +41,9 @@ export default function WithCard() {
     ]        
 
   return (
-    <main className="text-white py-20 flex flex-col gap-16 ">
+    <>
+    
+    <main className="text-white py-20 hidden md:flex flex-col gap-16 ">
       <section className="flex items-center justify-between ">
         <section>
           <h1 className="text-[36px] font-bold">WHY BUILD</h1>
@@ -71,5 +73,26 @@ export default function WithCard() {
         }
       </section>
     </main>
+    <main className="text-white py-20 md:hidden items-center flex flex-col gap-16 ">
+      <section className="flex items-center justify-between ">
+        <section className="flex items-center flex-col">
+          <h1 className="text-[26px] font-bold">WHY BUILD</h1>
+  
+            <h1 className="text-[26px] font-thin">WITH HYDRA?</h1>
+          
+        </section>
+      </section>
+      <section className="flex items-center flex-wrap  justify-between ">
+        <Image src={curve14} alt="curve" className="absolute   -z-50 left-0 mb-[-450px]  "/>
+        {
+            data.map((item)=>{
+                return(
+                    <Card key={item.id} image={item.image} title={item.title} btn_title={item.btn_title} desc={item.desc}  />
+                )
+            })
+        }
+      </section>
+    </main>
+    </>
   );
 }

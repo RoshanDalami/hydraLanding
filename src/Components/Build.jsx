@@ -27,7 +27,9 @@ export default function Build() {
         },
     ]
   return (
-    <main className="text-white flex flex-col gap-20">
+    <>
+    
+    <main className="text-white hidden md:flex flex-col gap-20">
       <section className="flex items-center justify-between">
         <section>
           <h1 className="text-[36px] font-bold">HOW WE BUILD</h1>
@@ -56,5 +58,26 @@ export default function Build() {
         <Image src={curve15} alt="" className=" absolute left-0 -z-50 mt-[-150px] "/>
       </section>
     </main>
+    <main className="text-white md:hidden flex flex-col gap-20">
+      <section className="flex items-center justify-between">
+        <section>
+          <h1 className="text-[26px] font-bold">HOW WE BUILD</h1>
+          
+            <h1 className="text-[26px] font-thin">WITH HYDRA VR?</h1>
+        </section>
+      </section>
+      <section className="flex flex-col justify-between items-center ">
+        {
+            data.map((item)=>{
+                return(
+
+                    <CircleCard key={item.id} title={item.title} desc={item.desc} />
+                )
+            })
+        }
+        
+      </section>
+    </main>
+    </>
   );
 }
