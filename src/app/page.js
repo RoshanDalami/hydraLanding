@@ -1,4 +1,4 @@
-
+'use client'
 import HeroSection from '@/Components/HeroSection'
 import HeroNav from '@/Components/HeroNav'
 import AboutSection from '@/Components/AboutSection'

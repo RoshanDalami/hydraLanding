@@ -1,4 +1,8 @@
+'use client'
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import longarrow from "@/Images/longarrow.svg";
 import Image from "next/image";
 import Card from "./Card";
@@ -8,6 +12,9 @@ import education from '@/Images/education.svg';
 import selfcare from '@/Images/selfcare.svg';
 import outdoor from '@/Images/outdoor.svg';
 import curve14 from '@/Images/curve14.svg';
+import CarouselForCard from "./CarouselForCard";
+
+
 export default function WithCard() {
 
     const data = [
@@ -83,14 +90,18 @@ export default function WithCard() {
         </section>
       </section>
       <section className="flex items-center flex-wrap  justify-between ">
-        <Image src={curve14} alt="curve" className="absolute   -z-50 left-0 mb-[-450px]  "/>
+        <div>
+        
         {
             data.map((item)=>{
                 return(
+                  
                     <Card key={item.id} image={item.image} title={item.title} btn_title={item.btn_title} desc={item.desc}  />
                 )
             })
         }
+        
+        </div>
       </section>
     </main>
     </>

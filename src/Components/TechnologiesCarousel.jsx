@@ -22,7 +22,7 @@ function SampleNextArrow(props) {
   }
 
 
-export default function Carousel({children}) {
+export default function CarouselTechnologies({children}) {
     const settings = {
         dots: false,
         infinite: true,

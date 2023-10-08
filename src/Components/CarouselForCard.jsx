@@ -2,8 +2,9 @@
 import React from 'react'
 import Slider from "react-slick";
 import Image from 'next/image';
-import rightArrow from '@/Images/chevron-circle-right.svg'
-import leftArrow from '@/Images/chevron-circle-left.svg'
+
+import rightArrow from '@/Images/outline/card-arrow-right.svg'
+import leftArrow from '@/Images/outline/card-arrow-left.svg'
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -22,7 +23,7 @@ function SampleNextArrow(props) {
   }
 
 
-export default function Carousel({children}) {
+export default function CarouselForCard({children}) {
     const settings = {
         dots: false,
         infinite: true,
