@@ -1,0 +1,45 @@
+'use client'
+import HeroSection from '@/Components/HeroSection'
+import HeroNav from '@/Components/HeroNav'
+import AboutSection from '@/Components/AboutSection'
+import WithCard from '@/Components/WithCard'
+import Technologies from '@/Components/Technologies'
+import Build from '@/Components/Build'
+import Form from '@/Components/Form'
+import Footer from '@/Components/Footer'
+import CardCarousel from '@/Components/CardCarousel'
+import ImageCarousel from '@/Components/ImageCarousel'
+export default function Home() {
+  return (
+    <main className=" ">
+      <HeroSection/>
+      <div className='mt-20'>
+      <HeroNav/>
+      </div>
+      <div className='my-20 mx-20'>
+      <AboutSection/>
+      </div>
+      <div className='md:mx-20'>
+        <WithCard/>
+        <div className='md:hidden'>
+        <CardCarousel />
+        </div>
+      </div>
+      <div>
+        <Technologies/>
+        <div className='pb-[130px] md:hidden'>
+          <ImageCarousel/>
+        </div>
+      </div>
+      <div className='mx-20'>
+        <Build/>
+      </div>
+      <div className='my-20'>
+        <Form/>
+      </div>
+    
+        <Footer/>
+      
+    </main>
+  )
+}
