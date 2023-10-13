@@ -26,7 +26,7 @@ export default function CircleCardCarousel() {
         },
       ];
   return (
-    <div className='text-white mx-8'>
+    <div className='text-white '>
         <CarouselForCircleCard>
         {data.map((item) => {
             return (

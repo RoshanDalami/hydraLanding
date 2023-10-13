@@ -9,6 +9,7 @@ import Form from '@/Components/Form'
 import Footer from '@/Components/Footer'
 import CardCarousel from '@/Components/CardCarousel'
 import ImageCarousel from '@/Components/ImageCarousel'
+import CircleCardCarousel from '@/Components/CircleCardCarousel'
 export default function Home() {
   return (
     <main className=" ">
@@ -33,8 +34,11 @@ export default function Home() {
       </div>
       <div className='mx-20'>
         <Build/>
+        <div className='md:hidden w-full'>
+          <CircleCardCarousel/>
+        </div>
       </div>
-      <div className='my-20'>
+      <div className='my-20 flex items-center justify-center  '>
         <Form/>
       </div>
     

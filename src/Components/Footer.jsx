@@ -64,7 +64,7 @@ export default function Footer() {
           </p>
         </div>
       </main>
-      <main className=" md:hidden text-white">
+      <main className=" flex flex-col items-center md:hidden text-white">
         <div className="  justify-center items-center  flex flex-col ">
         <Image
             src={curve19}
@@ -89,7 +89,7 @@ export default function Footer() {
             <button className="join_btn" >BUILD YOUR WORLD</button>
           </section>
         </div>
-        <Image src={footermobile} alt="" className="py-5" />
+        <Image src={footermobile} alt="" className="py-5 "  />
         <div className="flex flex-col gap-3 mb-[70px]">
           <p className="text-[14px] font-bold text-center  ">
             2023 © HYDRA LANDING PAGE{" "}
