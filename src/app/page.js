@@ -10,19 +10,22 @@ import Footer from '@/Components/Footer'
 import CardCarousel from '@/Components/CardCarousel'
 import ImageCarousel from '@/Components/ImageCarousel'
 import CircleCardCarousel from '@/Components/CircleCardCarousel'
+import HomeNavCarousel from '@/Components/HomeNavCarousel'
 export default function Home() {
   return (
-    <main className=" ">
+    <main className=" md:mx-10 ">
+
       <HeroSection/>
-      <div className='mt-20'>
+      <div className='mt-20 '>
       <HeroNav/>
       </div>
-      <div className='my-20 mx-20'>
+      <HomeNavCarousel/>
+      <div className='my-20 md:mx-20'>
       <AboutSection/>
       </div>
-      <div className='md:mx-20'>
+      <div className=''>
         <WithCard/>
-        <div className='md:hidden'>
+        <div className='md:hidden '>
         <CardCarousel />
         </div>
       </div>
@@ -38,11 +41,13 @@ export default function Home() {
           <CircleCardCarousel/>
         </div>
       </div>
-      <div className='my-20 flex items-center justify-center  '>
+      <div className='my-20  flex items-center justify-center  '>
         <Form/>
       </div>
-    
+    <div className='flex items-center justify-center' >
+
         <Footer/>
+    </div>
       
     </main>
   )

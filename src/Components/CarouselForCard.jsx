@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <Image src={rightArrow} className={className} alt='' onClick={onClick} style={{...style,width:'65px',height:'65px',display:'absolute',marginTop:'8%' , marginRight:'3%',zIndex:10 }} />
+      <Image src={rightArrow} className={className} alt='' onClick={onClick} style={{...style,width:'65px',height:'65px',display:'absolute',marginTop:'8%' ,zIndex:10 }} />
     );
   }
 

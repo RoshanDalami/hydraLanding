@@ -57,11 +57,10 @@ export default function AboutSection() {
     </main>
     <main className="text-white flex md:hidden flex-col gap-10 ">
       <section className="flex items-center justify-between">
-        <section className="">
+        <section className="flex flex-col items-center justify-center  w-full">
           <h1 className="text-[36px] font-bold">INTRODUCTION</h1>
-          <section className="flex items-center gap-6">
             <h1 className="text-[36px] font-light">TO HYDRA VR</h1>
-          </section>
+          
         </section>
       </section>
       <section className="flex flex-col items-center justify-between">

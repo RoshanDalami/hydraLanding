@@ -45,7 +45,7 @@ export default function Build() {
             in. Lectus magna fringilla urna porttitor rhoncus vitae.
           </p>
         </section>
-        <section className="flex justify-between items-center ">
+        <section className="flex justify-center  items-center ">
           {data.map((item) => {
             return (
               <CircleCard key={item.id} title={item.title} desc={item.desc} />

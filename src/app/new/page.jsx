@@ -9,6 +9,7 @@ import outdoor from '@/Images/outdoor.svg';
 import curve14 from '@/Images/curve14.svg';
 import ImageCarousel from '@/Components/ImageCarousel';
 import CircleCardCarousel from '@/Components/CircleCardCarousel';
+import IconsCarousel from '@/Components/IconsCarousel';
 
 const data = [
   {
@@ -62,9 +63,14 @@ export default function CardCarousel() {
     
       </CarouselForCard>
     </div>
+      <IconsCarousel/>
     <ImageCarousel/>
 
+
     <CircleCardCarousel/>
+
+    
+    
     </>
   )
 }

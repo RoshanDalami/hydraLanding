@@ -60,17 +60,11 @@ export default function HeroNav() {
           </div>
         </section>
       </main>
-      <main className="bg-gradient-radial from-[#3A3456] to-[#211E2E] rounded-full md:hidden  w-[370px] h-[130px] px-5 ">
+      {/* <main className="bg-gradient-radial from-[#3A3456] to-[#211E2E] rounded-full md:hidden  w-[370px] h-[130px] mx-auto px-5 ">
         <Carousel>
-          {/* {Data.map((items) => {
-            <section className=" mt-[20px] border-2  ">
-              <Image src={location} alt="location" height={30} width={30} />
-              <p className="text-[14px] text-white  inline">
-                Union St, Seattle, WA 98101, United States
-              </p>
-            </section>;
-          })} */}
-          <section className=" mt-[20px]   ">
+          
+
+          <section className=" mt-[20px] ">
             <Image src={location} alt="location" height={30} width={30} />
             <p className="text-[14px] text-white  inline">
               Union St, Seattle, WA 98101, United States
@@ -85,7 +79,7 @@ export default function HeroNav() {
             <p className="text-[14px] text-white">Contact@HydraVTech.com</p>
           </section>
         </Carousel>
-      </main>
+      </main> */}
     </>
   );
 }

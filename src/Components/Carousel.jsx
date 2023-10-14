@@ -10,14 +10,14 @@ import "slick-carousel/slick/slick-theme.css";
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
-      <Image src={rightArrow} className={className} alt='' onClick={onClick} style={{...style,width:'30px',height:'40px',display:'absolute',marginTop:'8%' , marginRight:'5%',zIndex:10 }} />
+      <Image src={rightArrow} className={className} alt='' onClick={onClick} style={{...style,width:'30px',height:'40px',display:'absolute',marginTop:'5%' , marginRight:'3%',zIndex:10 }} />
     );
   }
 
   function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
-        <Image src={leftArrow} className={className } alt='' onClick={onClick} style={{...style,width:'30px',height:'40px',display:'absolute',marginTop:'8%' , marginLeft:'5%', zIndex:10 }} />
+        <Image src={leftArrow} className={className } alt='' onClick={onClick} style={{...style,width:'30px',height:'40px',display:'absolute',marginTop:'5%' , marginLeft:'3%', zIndex:10 }} />
       );
   }
 

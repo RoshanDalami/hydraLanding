@@ -23,7 +23,7 @@ export default function Card({title,image,btn_title,desc}) {
       </div>
       <h1 className="text-[24px] font-bold">{title}</h1>
       <Image src={horizontalLine} alt="" />
-      <p className="text-[12px] font-light px-5">
+      <p className="text-[12px] font-light md:px-5 px-8 ">
         {desc}
       </p>
       <button className="join_btn">{btn_title}</button>
