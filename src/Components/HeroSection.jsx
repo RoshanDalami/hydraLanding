@@ -14,7 +14,7 @@ import HeroNav from "./HeroNav";
 export default function HeroSection() {
   return (
     <>
-      <main className=" hidden md:flex items-center justify-between mx-16 mt-20  ">
+      <main className=" hidden md:flex items-center justify-between mx-16 mt-20   ">
         <section className="w-2/4 flex flex-col gap-10 ">
           {/* text will go here  */}
           <Image src={curve4} alt="curve" className="absolute left-0 -z-50" />

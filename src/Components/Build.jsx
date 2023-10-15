@@ -59,20 +59,12 @@ export default function Build() {
         </section>
       </main>
       <main className="text-white md:hidden flex flex-col gap-20">
-        <section className="flex items-center justify-between">
-          <section>
+        <section className="flex flex-col items-center justify-between my-6">
             <h1 className="text-[26px] font-bold">HOW WE BUILD</h1>
 
             <h1 className="text-[26px] font-thin">WITH HYDRA VR?</h1>
-          </section>
         </section>
-        {/* <section className="flex flex-col justify-between items-center ">
-          {data.map((item) => {
-            return (
-              <CircleCard key={item.id} title={item.title} desc={item.desc} />
-            );
-          })}
-        </section> */}
+        
       </main>
     </>
   );

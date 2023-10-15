@@ -29,7 +29,7 @@ const Data = [
 export default function HeroNav() {
   return (
     <>
-      <main className="bg-gradient-radial from-[#3A3456] to-[#211E2E] rounded-full hidden md:flex py-4 px-16 items-center">
+      <main className="bg-gradient-radial from-[#3A3456] to-[#211E2E] rounded-full hidden md:flex py-4 px-16 items-center justify-between ">
         <section className="flex  items-center gap-5">
           <Image src={location} alt="location" height={30} width={30} />
           <div>

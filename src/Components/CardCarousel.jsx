@@ -40,11 +40,11 @@ const data = [
 ];
 export default function CardCarousel() {
   return (
-    <div className="px-14 text-white ">
+    <div className="mx-6 text-white ">
       <CarouselForCard>
         {data.map((item) => {
           return (
-            <div key={item.id}>
+            <div key={item.id} className="mx-6" >
               <Card
                 key={item.id}
                 image={item.image}

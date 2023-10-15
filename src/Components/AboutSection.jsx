@@ -55,7 +55,7 @@ export default function AboutSection() {
         </section>
       </section>
     </main>
-    <main className="text-white flex md:hidden flex-col gap-10 ">
+    <main className="text-white flex md:hidden flex-col gap-10 mx-5 ">
       <section className="flex items-center justify-between">
         <section className="flex flex-col items-center justify-center  w-full">
           <h1 className="text-[36px] font-bold">INTRODUCTION</h1>
@@ -63,9 +63,9 @@ export default function AboutSection() {
           
         </section>
       </section>
-      <section className="flex flex-col items-center justify-between">
+      <section className="flex flex-col gap-10 items-center justify-between">
         <Image src={aboutImage} alt="image" width={400} height={400} />
-        <section className=" flex flex-col gap-6">
+        <section className=" flex flex-col items-center gap-6">
           <p className="text-[16px] font-light">
             Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus
             mattis rhoncus urna neque viverra justo. Vivamus at augue eget arcu
@@ -78,7 +78,7 @@ export default function AboutSection() {
             dapibus. Sem nulla pha retra diam sit amet nisl suscipit adipiscing
             bibendum. Leo a diam sollicitudi n tempor.
           </p>
-          <button className="join_btn ">LET&apos;S GET IN TOUCH</button>
+          <button className="join_btn w-3/4 ">LET&apos;S GET IN TOUCH</button>
         </section>
       </section>
     </main>

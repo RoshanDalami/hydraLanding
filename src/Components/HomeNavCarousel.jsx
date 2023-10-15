@@ -10,6 +10,7 @@ export default function HomeNavCarousel() {
           id: "1",
           image: location,
           title: "Union St, Seattle, WA 98101, United States",
+          
         },
         {
           id: "2",
@@ -30,7 +31,7 @@ export default function HomeNavCarousel() {
             <div key={items.id} className=" mt-8 ml-8  "  >
 
             <section key={items.id} className="flex  items-center gap-5">
-              <Image src={items.image} alt="location" height={50} width={50} />
+              <Image src={items.image} alt={`${items.image.name}`} height={50} width={50} />
               <div>
                 <p className="text-[16px] text-white  ">{items.title}</p>
               </div>

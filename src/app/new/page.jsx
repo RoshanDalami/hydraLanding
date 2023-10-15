@@ -9,7 +9,7 @@ import outdoor from '@/Images/outdoor.svg';
 import curve14 from '@/Images/curve14.svg';
 import ImageCarousel from '@/Components/ImageCarousel';
 import CircleCardCarousel from '@/Components/CircleCardCarousel';
-import IconsCarousel from '@/Components/IconsCarousel';
+
 
 const data = [
   {
@@ -45,10 +45,8 @@ export default function CardCarousel() {
   return (
     <>
     
-    <div className='px-10'>
+    <div className='px-10 flex items-center justify-center text-white ' >
       <CarouselForCard>
-     
-        
         {
             data.map((item)=>{
                 return(
@@ -63,7 +61,6 @@ export default function CardCarousel() {
     
       </CarouselForCard>
     </div>
-      <IconsCarousel/>
     <ImageCarousel/>
 
 

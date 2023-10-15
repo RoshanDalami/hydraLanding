@@ -13,7 +13,7 @@ import CircleCardCarousel from '@/Components/CircleCardCarousel'
 import HomeNavCarousel from '@/Components/HomeNavCarousel'
 export default function Home() {
   return (
-    <main className=" md:mx-10 ">
+    <main className=" md:mx-10">
 
       <HeroSection/>
       <div className='mt-20 '>
