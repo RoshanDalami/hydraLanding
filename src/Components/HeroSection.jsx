@@ -31,7 +31,6 @@ export default function HeroSection() {
               </span>
             </h1>
           </div>
-
           <p className="text-[16px] text-white font-light mr-12 w-3/4 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget.
@@ -85,13 +84,13 @@ export default function HeroSection() {
       <main className="flex flex-col md:hidden items-center justify-between  mt-20  ">
         <section>
           {/* image will go here  */}
-          <div className=" mx-12 relative flex items-center ">
+          <div className="mx-4 relative flex items-center ">
             <div className="p-3 ">
               <Image
                 src={heroimage}
                 alt="hero image"
-                width={400}
-                height={400}
+                width={900}
+                height={900}
                 className=""
               />
               <Image

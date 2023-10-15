@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import technologies from "@/Images/technologies.svg";
+import technologiesMobile from "@/Images/mobileTech.svg";
 import arrowdown from "@/Images/arrowdown.svg";
 import circlesmall from '@/Images/circlesmall.svg';
 import unity from '@/Images/unity.svg'
@@ -39,8 +40,8 @@ export default function Technologies() {
     </>
     <>
 
-      <main className="relative flex md:hidden flex-col items-center mx-5 h-[150px] ">
-        <Image src={technologies} alt="image" className="h-[150px]"  />
+      <main className="relative flex md:hidden flex-col items-center mx-5 my-14  ">
+        <Image src={technologiesMobile} alt="image" className=""  />
         <div className="absolute top-0 text-center flex items-center flex-col justify-center w-full h-full ">
           <h1 className="text-[16px] font-bold text-white">
             TECHNOLOGIES & HARDWARE
