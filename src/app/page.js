@@ -29,13 +29,13 @@ export default function Home() {
         <CardCarousel />
         </div>
       </div>
-      <div>
+      <div className='my-20'>
         <Technologies/>
         <div className='pb-[130px] md:hidden'>
           <ImageCarousel/>
         </div>
       </div>
-      <div className='mx-20'>
+      <div className='mx-20 my-20'>
         <Build/>
         <div className='md:hidden w-full'>
           <CircleCardCarousel/>
