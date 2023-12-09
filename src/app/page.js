@@ -17,9 +17,9 @@ export default function Home() {
 
       <HeroSection/>
       <div className='md:mt-20 mt-8 '>
-      <HeroNav/>
+      {/* <HeroNav/> */}
       </div>
-      <HomeNavCarousel/>
+      {/* <HomeNavCarousel/> */}
       <div className='my-20 md:mx-20'>
       <AboutSection/>
       </div>
@@ -29,12 +29,12 @@ export default function Home() {
         <CardCarousel />
         </div>
       </div>
-      <div className='my-20'>
+      {/* <div className='my-20'>
         <Technologies/>
         <div className='pb-[130px] md:hidden'>
           <ImageCarousel/>
         </div>
-      </div>
+      </div> */}
       <div className='mx-20 md:my-20'>
         <Build/>
         <div className='md:hidden w-full'>

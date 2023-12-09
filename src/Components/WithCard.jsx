@@ -19,28 +19,28 @@ export default function WithCard() {
   const data = [
     {
       id: "1",
-      title: "SIMULATION",
+      title: "BRANDING",
       image: simulation,
       btn_title: "TRY IT NOW",
       desc: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
     },
     {
       id: "2",
-      title: "EDUCATION",
+      title: "TECHNOLOGY",
       image: education,
       btn_title: "TRY IT NOW",
       desc: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
     },
     {
       id: "3",
-      title: "SELF-CARE",
+      title: "CONNECTIVITY",
       image: selfcare,
       btn_title: "TRY IT NOW",
       desc: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
     },
     {
       id: "4",
-      title: "OUTDOOR",
+      title: "CONTROL",
       image: outdoor,
       btn_title: "TRY IT NOW",
       desc: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
@@ -54,18 +54,13 @@ export default function WithCard() {
           <section>
             <h1 className="text-[36px] font-bold">WHY BUILD</h1>
             <section className="flex items-center gap-4">
-              <h1 className="text-[36px] font-thin">WITH HYDRA?</h1>
+              <h1 className="text-[36px] font-thin">WITH Debuginit?</h1>
               <Image src={longarrow} alt="arrow" />
             </section>
           </section>
           <section className="w-2/4">
             <p>
-              Vitae sapien pellentesque habitant morbi tristique senectus et
-              netus et. Feugiat nibh sed pulvinar proin gravida hendrerit
-              lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt
-              nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet
-              est placerat in. Lectus magna fringilla urna porttitor rhoncus
-              vitae.
+            We are pleased to create an ecosystem that combines the product , services with technology.
             </p>
           </section>
         </section>

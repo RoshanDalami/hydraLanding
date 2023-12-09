@@ -8,7 +8,7 @@ import horizontalLine from "@/Images/horizontalLine.svg";
 
 export default function Card({title,image,btn_title,desc}) {
   return (
-    <main className="bg-gradient-radial from-[#3A3456] to-[#211E2E] h-[450px] w-[300px] rounded-[35px] flex flex-col items-center justify-between py-6 ">
+    <main className="bg-gradient-radial from-[#2f1231] to-[#371053] h-[450px] w-[300px] rounded-[35px] flex flex-col items-center justify-between py-6 ">
       <div className="relative ">
         <Image
           src={image}

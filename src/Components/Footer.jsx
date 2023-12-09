@@ -17,26 +17,25 @@ import instagram from '@/Images/instagram.svg';
 import pinterest from '@/Images/pinterest.svg';
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear()
   return (
     <>
-      <main className="w-[80%] hidden md:block  text-white">
+      <main className="w-[100%] hidden md:block  text-white">
         <div className="  justify-center items-center gap-20 flex">
-          <Image
-            src={curve19}
-            alt=""
-            className="absolute left-0 mb-[500px] rotate-[-3deg] -z-50 "
-          />
-          <Image src={curve18} alt="" className="absolute left-0 -z-50 " />
+
           <section>
-            <Image src={logo} alt="" width={150} height={150} />
+            {/* <Image src={logo} alt="" width={150} height={150} /> */}
+            <span className="text-[#BD4EE3] text-3xl  font-bold  cursor-pointer "  >
+            Debuginit
+          </span>
           </section>
           <Image src={footerLine} alt="" />
           <section className="flex flex-col gap-4">
             <p className="footertext">ABOUT</p>
             <p className="footertext">SERVICES</p>
-            <p className="footertext">TECHNOLOGIES</p>
-            <p className="footertext">HOW TO</p>
-            <p className="footertext">JOIN HYDRA</p>
+            {/* <p className="footertext">TECHNOLOGIES</p> */}
+            <p className="footertext">WHAT WE DO</p>
+            {/* <p className="footertext">JOIN HYDRA</p> */}
           </section>
           <Image src={footerLine} alt="" className="py-7" />
           <section className="flex flex-col gap-4">
@@ -47,7 +46,7 @@ export default function Footer() {
           </section>
           <Image src={footerLine} alt="" />
           <section className="flex flex-col gap-4">
-            <p className="footertext">SOCIALIZE WITH HYDRA</p>
+            <p className="footertext">SOCIALIZE WITH DEBUGINIT</p>
             <div className="flex items-center gap-6">
                 <Image src={facebook} alt="facebook"/>
                 <Image src={twitter} alt="twitter"/>
@@ -62,25 +61,23 @@ export default function Footer() {
         <Image src={footerHorizontal} alt="" className="my-5" />
         <div>
           <p className="text-[14px] font-bold text-center py-6 ">
-            2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS
+          {currentYear} © Debuginit LANDING PAGE{" "} - BY SANJAY SHAH - ALL RIGHTS
             RESERVED{" "}
           </p>
         </div>
       </main>
       <main className=" flex flex-col items-center md:hidden text-white">
         <div className="  justify-center items-center  flex flex-col ">
-        <Image
-            src={mobileCurveOne}
-            alt=""
-            className="absolute left-0  mb-[350px] scale-[1.2] rotate-[-3deg] -z-50   "
-          />
-          <Image src={mobileCurveTwo} alt="" className="absolute left-0 -z-50 mb-[120px] scale-[1.3] ml-[-30px] " />
-          <section>
-            <Image src={logo} alt="" width={250} height={250} />
+
+        <section className="my-10">
+            {/* <Image src={logo} alt="" width={150} height={150} /> */}
+            <span className="text-[#BD4EE3] text-3xl  font-bold  cursor-pointer "  >
+            Debuginit
+          </span>
           </section>
 
           <section className="flex flex-col gap-6">
-            <p className="footertext">SOCIALIZE WITH HYDRA</p>
+            <p className="footertext">SOCIALIZE WITH DEBUGINIT</p>
             <div className="flex items-center gap-6">
                 <Image src={facebook} alt="facebook"/>
                 <Image src={twitter} alt="twitter"/>
@@ -95,9 +92,9 @@ export default function Footer() {
         <Image src={footermobile} alt="" className="py-5 "  />
         <div className="flex flex-col gap-3 mb-[70px]">
           <p className="text-[14px] font-bold text-center  ">
-            2023 © HYDRA LANDING PAGE{" "}
+            {currentYear} © Debuginit LANDING PAGE{" "}
           </p>{" "}
-          <p className="text-[14px] font-bold text-center "> BY ZINE. E. FALOUTI </p> 
+          <p className="text-[14px] font-bold text-center "> BY SANJAY SHAH </p> 
           <p className="text-[14px] font-bold text-center  ">ALL RIGHTS RESERVED </p>
         </div>
       </main>

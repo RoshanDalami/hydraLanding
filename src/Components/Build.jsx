@@ -8,32 +8,32 @@ export default function Build() {
     {
       id: "1",
       title: "01",
-      desc: "3D Conception & Design",
+      desc: "Product",
     },
     {
       id: "2",
       title: "02",
-      desc: "Interaction Design",
+      desc: "Services",
     },
     {
       id: "3",
       title: "03",
-      desc: "VR World User Testing",
+      desc: "Technology",
     },
     {
       id: "4",
       title: "04",
-      desc: "Hydra VR Deploy",
+      desc: "IoT Devices",
     },
   ];
   return (
     <>
-      <main className="text-white hidden md:flex flex-col gap-20">
+      <main className="text-white hidden md:flex flex-col items-center justify-center gap-20 min-h-screen">
         <section className="flex items-center justify-between">
           <section>
-            <h1 className="text-[36px] font-bold">HOW WE BUILD</h1>
+            <h1 className="text-[36px] font-bold">WHAT WE BUILD</h1>
             <section className="flex items-center gap-6">
-              <h1 className="text-[36px] font-thin">WITH HYDRA VR?</h1>
+              <h1 className="text-[36px] font-thin">IN Debuginit?</h1>
               <Image src={longarrow} alt="" />
             </section>
           </section>
@@ -45,24 +45,20 @@ export default function Build() {
             in. Lectus magna fringilla urna porttitor rhoncus vitae.
           </p>
         </section>
-        <section className="flex justify-center  items-center ">
+        <section className="flex justify-between w-full  items-center ">
           {data.map((item) => {
             return (
               <CircleCard key={item.id} title={item.title} desc={item.desc} />
             );
           })}
-          <Image
-            src={curve15}
-            alt=""
-            className=" absolute left-0 -z-50 mt-[-150px] "
-          />
+          
         </section>
       </main>
       <main className="text-white md:hidden flex flex-col gap-20">
         <section className="flex flex-col items-center justify-between my-6">
-            <h1 className="text-[26px] font-bold">HOW WE BUILD</h1>
+            <h1 className="text-[26px] font-bold">WHAT WE BUILD</h1>
 
-            <h1 className="text-[26px] font-thin">WITH HYDRA VR?</h1>
+            <h1 className="text-[26px] font-thin">IN Debuginit?</h1>
         </section>
         
       </main>

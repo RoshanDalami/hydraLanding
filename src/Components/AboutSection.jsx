@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import lognarrow from "@/Images/longarrow.svg";
-import aboutImage from "@/Images/aboutimage.svg";
+import aboutImage from "@/Images/about_section.svg";
 import curve7 from "@/Images/curve7.svg";
 import curve8 from "@/Images/curve8.svg";
 export default function AboutSection() {
@@ -13,7 +13,7 @@ export default function AboutSection() {
         <section className="">
           <h1 className="text-[36px] font-bold">INTRODUCTION</h1>
           <section className="flex items-center gap-6">
-            <h1 className="text-[36px] font-light">TO HYDRA VR</h1>
+            <h1 className="text-[36px] font-light">TO Debuginit</h1>
             <Image src={lognarrow} alt="long arrow" />
           </section>
         </section>
@@ -37,7 +37,7 @@ export default function AboutSection() {
         <section className="w-2/4 flex flex-col gap-6">
           <div>
             <h1 className="text-[36px] font-bold"> ABOUT</h1>
-            <h1 className="text-[36px] font-extralight"> HYDRA VR</h1>
+            <h1 className="text-[36px] font-extralight">Debuginit</h1>
           </div>
           <p className="text-[16px] font-light">
             Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus
@@ -59,7 +59,7 @@ export default function AboutSection() {
       <section className="flex items-center justify-between">
         <section className="flex flex-col items-center justify-center  w-full">
           <h1 className="text-[36px] font-bold">INTRODUCTION</h1>
-            <h1 className="text-[36px] font-light">TO HYDRA VR</h1>
+            <h1 className="text-[36px] font-light">TO Debuginit</h1>
           
         </section>
       </section>
