@@ -11,28 +11,28 @@ import curve14 from "@/Images/curve14.svg";
 const data = [
   {
     id: "1",
-    title: "SIMULATION",
+    title: "BRANDING",
     image: simulation,
     btn_title: "TRY IT NOW",
     desc: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
   },
   {
     id: "2",
-    title: "EDUCATION",
+    title: "TECHNOLOGY",
     image: education,
     btn_title: "TRY IT NOW",
     desc: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
   },
   {
     id: "3",
-    title: "SELF-CARE",
+    title: "CONNECTIVITY",
     image: selfcare,
     btn_title: "TRY IT NOW",
     desc: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",
   },
   {
     id: "4",
-    title: "OUTDOOR",
+    title: "CONTROL",
     image: outdoor,
     btn_title: "TRY IT NOW",
     desc: "Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet  porttitor rhoncus libero justo laoreet sit amet vitae.",

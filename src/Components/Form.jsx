@@ -1,11 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import formLine from "@/Images/formline.svg";
+
+// bg-gradient-radial from-[#2f1231] to-[#371053]
+
 export default function Form() {
   return (
     <>
     
-    <main className="bg-gradient-radial from-[#2f1231] to-[#371053] text-white hidden md:flex flex-col items-center justify-center w-[1000px] py-16 gap-10 rounded-lg ">
+    <main className="text-white hidden md:flex flex-col items-center justify-center w-[1000px] py-16 gap-10 rounded-lg ">
       <div className="flex flex-col items-center gap-6">
         <h1 className="text-[36px] ">CONTACT DEBUGINIT</h1>
         <Image src={formLine} alt="" />
@@ -58,7 +61,7 @@ export default function Form() {
         </button>
       </div>
     </main>
-    <main className="bg-gradient-radial from-[#2f1231] to-[#371053] text-white flex md:hidden flex-col items-center justify-center  py-16 gap-8 rounded-[30px] ">
+    <main className=" text-white flex md:hidden flex-col items-center justify-center  py-16 gap-8 rounded-[30px] ">
       <div className="flex flex-col items-center justify-center gap-6">
         <h1 className="text-[24px] ">CONTACT DEBUGINIT</h1>
         <Image src={formLine} alt="" width={200} />
